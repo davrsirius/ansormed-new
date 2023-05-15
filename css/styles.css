@@ -48,10 +48,13 @@ header {
   font-size: 24px;
   line-height: 33px;
   color: #222222;
-
+  transition: color 0.4s ease;
 }
 
-header .logo-link:hover {}
+.logo-link:hover .logo-text {
+  color: #DE2E54;
+}
+
 
 .navlist {
   margin: 0;
@@ -74,6 +77,11 @@ header .logo-link:hover {}
   text-transform: uppercase;
   color: #222222;
   text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+.navlist-link:hover {
+  color: #DE2E54;
 }
 
 .register-link {
@@ -94,6 +102,12 @@ header .logo-link:hover {}
   /*shu yerni va shrift turini to'grilash kerak*/
   text-transform: uppercase;
   color: #FFFFFF;
+  transition: color 0.4s ease, background-color 0.4s ease;
+}
+
+.register-link:hover {
+  background-color: #fff;
+  color: #DE2E54;
 }
 
 /* Hero section styles */
@@ -242,6 +256,12 @@ header .logo-link:hover {}
   border: 2px solid #FFFFFF;
   border-radius: 8px;
   font-family: 'Roboto Condensed', sans-serif;
+  transition: background-color 0.2s ease, border 0.2s ease;
+}
+
+.footer-btn:hover {
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
 }
 
 .footer-top-links {
