@@ -138,6 +138,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .services-card {
@@ -175,4 +176,20 @@ body {
   color: #444444;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.services-register-link {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+/* footer section styles */
+.footer-heading {
+
+}
+.footer-btn {
+}
+.footer-bottom {
 }
