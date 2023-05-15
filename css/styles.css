@@ -22,6 +22,11 @@ body {
   align-items: center;
 }
 
+/* *:focus {
+  outline: 2px dotted #DE2E54;
+  outline-offset: 3px;
+} */
+
 /* Header section styles */
 header {
   padding: 24px 0;
@@ -55,6 +60,9 @@ header {
   color: #DE2E54;
 }
 
+.logo-link:active  {
+  opacity: 0.6;
+}
 
 .navlist {
   margin: 0;
@@ -84,6 +92,10 @@ header {
   color: #DE2E54;
 }
 
+.navlist-link:active {
+  opacity: 0.6;
+}
+
 .register-link {
   display: inline-block;
   padding: 12px 24px;
@@ -108,6 +120,12 @@ header {
 .register-link:hover {
   background-color: #fff;
   color: #DE2E54;
+}
+
+.register-link:active {
+  opacity: 0.6;
+  background-color: #DE2E54;
+  color: #fff;
 }
 
 /* Hero section styles */
@@ -264,6 +282,12 @@ header {
   border: 2px solid #DE2E54;
 }
 
+.footer-btn:active {
+  opacity: 0.6;
+  background-color: #DE2E54;
+  color: #fff;
+}
+
 .footer-top-links {
   display: flex;
   justify-content: space-between;
@@ -287,4 +311,13 @@ header {
 
 .footer-bottom .logo-text {
   color: #fff;
+}
+
+.footer-bottom .navlist .navlist-link:active {
+  color: #fff;
+  opacity: 0.6;
+}
+.footer-bottom .logo-link:active .logo-text {
+  color: #fff;
+  opacity: 0.6;
 }
