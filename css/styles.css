@@ -24,7 +24,9 @@ body {
 
 /* Header section styles */
 
-.logo-link {}
+.logo-link {
+  display: inline-block;
+}
 
 .logo-img {
   width: 185px;
@@ -42,7 +44,7 @@ body {
   height: 21px;
 }
 
-.nav-list-item {}
+
 
 .navlist-link {
   font-weight: 700;
