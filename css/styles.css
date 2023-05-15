@@ -29,12 +29,29 @@ header {
 
 .logo-link {
   display: inline-block;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .logo-img {
-  width: 185px;
+  width: 50px;
   height: 50px;
 }
+
+.logo-text {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #222222;
+
+}
+
+header .logo-link:hover {}
 
 .navlist {
   margin: 0;
@@ -228,20 +245,26 @@ header {
 }
 
 .footer-top-links {
-display: flex;
-justify-content: space-between;
-width: 450px;
-margin-left: auto;
-margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
+
 .footer-bottom {
   background: #222222;
 }
+
 .footer-bottom .container {
   padding: 24px 0;
 }
 
 .footer-bottom a {
   color: #FFFFFF;
+}
+
+.footer-bottom .logo-text {
+  color: #fff;
 }
